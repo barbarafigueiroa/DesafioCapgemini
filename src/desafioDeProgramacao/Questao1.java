@@ -12,7 +12,7 @@ public class Questao1 {
 
 		 
 
-		System.out.print("Digite a quantidade de vezes: ");
+		System.out.print("Digite um número para formar uma escada: ");
 		int numDegraus = leia.nextInt();
 
 		 
