@@ -19,7 +19,7 @@ public class Questao2 {
 	            "|* Contenha no mínimo 1 digito___________________|"+ "\n" +
 	            "|* Contenha no mínimo 1 letra em minúsculo_______|" + "\n" +
 	            "|* Contenha no mínimo 1 letra em maiúsculo_______|" + "\n" +
-	            "|* Contenha no mínimo 1 caractere especial: _____|" + "\n" + "|(!@#$%^&*()-+)__________________________________|" + "\n");
+	            "|* Contenha no mínimo 1 caractere especial: _____|" + "\n" + "|(! @ # $ % ^ & * ( ) - + )______________________|" + "\n");
 	    System.out.print("Crie a sua senha: ");
 		String senha1 = leia.next();
 		
