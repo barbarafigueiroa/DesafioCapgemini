@@ -10,7 +10,7 @@ public class Questao1 {
 		Scanner leia = new Scanner(System.in);
 		List<String> degraus = new ArrayList<>();
 
-		System.out.print("Digite um n�mero para formar uma escada: ");
+		System.out.print("Digite um número para formar uma escada: ");
 		int numDegraus = leia.nextInt();
 
 		for (int i = 0; i < numDegraus; i++) {
