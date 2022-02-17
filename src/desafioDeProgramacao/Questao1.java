@@ -10,23 +10,17 @@ public class Questao1 {
 		Scanner leia = new Scanner(System.in);
 		List<String> degraus = new ArrayList<>();
 
-		 
-
-		System.out.print("Digite um número para formar uma escada: ");
+		System.out.print("Digite um nï¿½mero para formar uma escada: ");
 		int numDegraus = leia.nextInt();
 
-		 
-
 		for (int i = 0; i < numDegraus; i++) {
-		degraus.add(" ".repeat(numDegraus - i) + "*".repeat(i + 1));
+			degraus.add(" ".repeat(numDegraus - i) + "*".repeat(i + 1));
 		}
 
-		 
-
-		for (String d : degraus ) {
-		System.out.println(d);
+		for (String d : degraus) {
+			System.out.println(d);
 		}
-		
+
 		leia.close();
 
 	}
